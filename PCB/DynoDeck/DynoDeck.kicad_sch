@@ -8211,16 +8211,6 @@
 		)
 		(uuid "ce346007-7225-4583-98b1-44f0cb5706e2")
 	)
-	(text "adjust load capacitors later"
-		(exclude_from_sim no)
-		(at 246.634 69.088 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e7a2323b-790c-48e0-ade2-4a25e05c2bb5")
-	)
 	(junction
 		(at 34.29 83.82)
 		(diameter 0)
@@ -8664,6 +8654,10 @@
 		(uuid "1048ab91-ad25-4e7c-a878-ec663fd18c49")
 	)
 	(no_connect
+		(at 213.36 170.18)
+		(uuid "11faf724-f088-45fe-bfa7-92702ad9f4f5")
+	)
+	(no_connect
 		(at 142.24 52.07)
 		(uuid "24b60867-dbb8-4805-b27a-bf222b1f2a71")
 	)
@@ -8696,6 +8690,10 @@
 		(uuid "65959775-f7a9-43d8-9807-3a6f0a7829e0")
 	)
 	(no_connect
+		(at 213.36 172.72)
+		(uuid "784e90fc-f5a2-49c2-b434-63e93e61855b")
+	)
+	(no_connect
 		(at 254 118.11)
 		(uuid "84e6e9ce-37ac-4594-9c46-ba04cd9c97f2")
 	)
@@ -8724,8 +8722,16 @@
 		(uuid "d78e6e76-1751-4128-bdd6-f79ad0ed4aea")
 	)
 	(no_connect
+		(at 213.36 167.64)
+		(uuid "e1c9f933-f059-4a58-93f1-c52a53a0bb78")
+	)
+	(no_connect
 		(at 142.24 49.53)
 		(uuid "ebfe8099-9d28-4d2f-8b3d-80c4b49ba5a0")
+	)
+	(no_connect
+		(at 213.36 165.1)
+		(uuid "f67a7bcd-b6bf-4bff-afa9-bf65f64a5f89")
 	)
 	(no_connect
 		(at 111.76 41.91)
@@ -16092,7 +16098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
+		(property "Footprint" "WeActStudio:weact_epaper_29"
 			(at 262.89 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -21936,6 +21942,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 218.44 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c439a34e-e3af-4e5d-984c-6f5e0e46856d")
+		(property "Reference" "J7"
+			(at 220.98 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CardKBRef"
+			(at 220.98 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CardKBRef:CardKBRef"
+			(at 218.44 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 218.44 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "cdc32186-dbcc-4538-a5bf-f960d798d879")
+		)
+		(pin "3"
+			(uuid "b25e5b62-4968-4e8e-b923-cb93c8908858")
+		)
+		(pin "2"
+			(uuid "73a17bc5-5c5b-4571-b278-7b0bbb48052c")
+		)
+		(pin "1"
+			(uuid "d0138002-a5e8-43b9-82c7-1c4995da1365")
+		)
+		(instances
+			(project "DynoDeck"
+				(path "/d751e66f-06ea-4bc9-898a-20a2be86c932"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 38.1 81.28 0)
 		(unit 1)
@@ -23949,7 +24043,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CardKB"
+		(property "Value" "CardKBConn"
 			(at 220.98 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)

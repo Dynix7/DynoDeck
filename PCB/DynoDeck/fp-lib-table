@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "Pin_1x05_P2.54mm_Pad1.8mm") (type "KiCad") (uri "${KIPRJMOD}/Pin_1x05_P2.54mm_Pad1.8mm.pretty") (options "") (descr ""))
 	(lib (name "PGRMPins") (type "KiCad") (uri "${KIPRJMOD}/PGRMPins.pretty") (options "") (descr ""))
+	(lib (name "CardKBRef") (type "KiCad") (uri "${KIPRJMOD}/CardKBRef.pretty") (options "") (descr ""))
 )
