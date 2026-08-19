@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.6,
-          "height": 3.4,
-          "width": 3.4
+          "drill": 3.4,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -216,8 +216,12 @@
       ],
       "track_widths": [
         0.0,
-        0.09,
-        0.152
+        0.152,
+        0.2,
+        0.25,
+        0.3447,
+        0.4,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -757,7 +761,7 @@
         "uuid": "d751e66f-06ea-4bc9-898a-20a2be86c932"
       }
     ],
-    "used_designators": "SW1-4,BT1,#FLG1-2,IC1,J1-7,FL1,#PWR1-47,Y1-3,FB1,L1-4,R1-21,C1-28,D1-3,U1-9",
+    "used_designators": "H1-2,SW1-4,BT1,#FLG1-2,IC1,J1-7,FL1,#PWR1-47,Y1-3,FB1,L1-4,R1-21,C1-28,D1-3,U1-9",
     "variants": []
   },
   "sheets": [
