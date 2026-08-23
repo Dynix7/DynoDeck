@@ -10256,16 +10256,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 130.81) (xy 312.42 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5006bbea-896b-4dcb-9b7e-c8c22854a547")
-	)
-	(wire
-		(pts
 			(xy 93.98 83.82) (xy 96.52 83.82)
 		)
 		(stroke
@@ -10423,6 +10413,16 @@
 			(type default)
 		)
 		(uuid "5d159e88-18d8-4234-926f-644dde610d44")
+	)
+	(wire
+		(pts
+			(xy 302.26 130.81) (xy 312.42 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d1a8412-e6e6-4311-bc79-a41405d9c71e")
 	)
 	(polyline
 		(pts
@@ -10836,6 +10836,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 110.49) (xy 312.42 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fbee2ab-8870-4a90-9a2f-d1dd56654201")
+	)
+	(wire
+		(pts
 			(xy 127 22.86) (xy 127 24.13)
 		)
 		(stroke
@@ -11113,6 +11123,16 @@
 			(type default)
 		)
 		(uuid "90d71e22-e88a-4ece-a035-e193340fd42b")
+	)
+	(wire
+		(pts
+			(xy 302.26 107.95) (xy 312.42 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a19a0b-0955-42e4-86a9-579495d3d74b")
 	)
 	(wire
 		(pts
@@ -12196,16 +12216,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 128.27) (xy 312.42 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d89a54c5-c9b1-45e0-aabd-52accd64c943")
-	)
-	(wire
-		(pts
 			(xy 130.81 24.13) (xy 127 24.13)
 		)
 		(stroke
@@ -12213,6 +12223,16 @@
 			(type default)
 		)
 		(uuid "d8e61f4f-8ca6-4e55-a7f8-9592133d09c7")
+	)
+	(wire
+		(pts
+			(xy 302.26 128.27) (xy 312.42 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97e9c7c-b7e8-44f3-a3d5-28902687028d")
 	)
 	(wire
 		(pts
@@ -13090,7 +13110,7 @@
 		(uuid "4799271c-f9e3-4be5-903d-0d6b42df143a")
 	)
 	(label "OTG"
-		(at 312.42 128.27 180)
+		(at 312.42 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13111,7 +13131,7 @@
 		(uuid "49b01e5c-1844-4342-b80a-d30e4cb8bc52")
 	)
 	(label "~{CE}"
-		(at 312.42 130.81 180)
+		(at 312.42 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13524,7 +13544,7 @@
 		(uuid "b0decb3a-eaf5-434e-8a8c-20fd21e266b5")
 	)
 	(label "SCL"
-		(at 273.05 101.6 180)
+		(at 312.42 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13645,7 +13665,7 @@
 		(uuid "debfa5e7-5a9e-4e84-99a0-fcf7b7d226b9")
 	)
 	(label "SDA"
-		(at 276.86 110.49 180)
+		(at 312.42 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
